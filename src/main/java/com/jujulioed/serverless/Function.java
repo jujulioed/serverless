@@ -26,7 +26,7 @@ public class Function {
                 name = "req",
                 methods = {HttpMethod.GET, HttpMethod.POST},
                 authLevel = AuthorizationLevel.FUNCTION)
-                HttpRequestMessage<Op32tg156tional<String>> request,
+                HttpRequestMessage<Optional<String>> request,
             final ExecutionContext context) {
         context.getLogger().info("Java HTTP trigger processed a request.");
 
